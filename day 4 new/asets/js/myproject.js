@@ -3,6 +3,14 @@ let datamyProject = []
 function submitBlog() {
     console.log("data terkirim silahkan cek di dasboard anda")
 
+    // const startDateValue = document.getElementById('startDate').value
+    // const endDateValue = document.getElementById('endDate').value
+
+    // console.log('cek tgl mulai', startDateValue)
+    // console.log('cek tgl berakhir', endDateValue)
+
+    // return;
+
     let inputName = document.getElementById("inputName").value
     let inputDescription = document.getElementById("inputDescription").value
     let inputImage = document.getElementById("inputImage").files
@@ -72,7 +80,6 @@ function submitBlog() {
 // WHILE -> perulangan yang belum tentu kamu tau kapan harus berheti (berdasarkan data dinamis)
 
 // DO-WHILE -> perulangan yang jalan dulu sekali,  baru di cek
-
 function renderBlog() {
     document.getElementById("contents").innerHTML = ""
 
